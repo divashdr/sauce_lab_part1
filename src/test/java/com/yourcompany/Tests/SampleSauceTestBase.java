@@ -27,11 +27,12 @@ import com.yourcompany.Utils.SauceHelpers;
  * Simple TestNG test which demonstrates being instantiated via a DataProvider
  * in order to supply multiple browser combinations.
  *
- * @author Neil Manvar           
+ * @author Neil Manvar               
  */
 @Listeners({ SauceOnDemandTestListener.class })
 public class SampleSauceTestBase implements SauceOnDemandSessionIdProvider, SauceOnDemandAuthenticationProvider {
 
+	String dd=null;
 	// Selenium URI -- static same for everyone.
 	public static String seleniumURI = null;
 
