@@ -33,7 +33,7 @@ import com.yourcompany.Utils.SauceHelpers;
 public class SampleSauceTestBase implements SauceOnDemandSessionIdProvider, SauceOnDemandAuthenticationProvider {
 
 	String dd=null;
-	
+	 
 	// Selenium URI -- static same for everyone.
 	public static String seleniumURI = null;
 
